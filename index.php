@@ -1,6 +1,6 @@
 <?php
 
-require_once 'includes/class.userinfo.php';
+require_once 'includes/class.publicme.php';
 
 $data = new UserInfo();
 
