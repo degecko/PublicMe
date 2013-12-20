@@ -1,14 +1,14 @@
 <?php
 
 /**
- * UserInfo Class
+ * PublicMe Class
  *
  * @author   Gecko - g3x0.com
  * @version  1.0
  * @licence  GPL
  */
 
-class UserInfo
+class PublicMe
 {
     /**
      * Variables that hold the user data
@@ -218,4 +218,4 @@ class UserInfo
         return isset($json[$key]) && !empty($json[$key]) ? $json[$key] : null;
     }
 }
-// end class: UserInfo
+// end class: PublicMe
