@@ -4,73 +4,119 @@ PublicMe
 PublicMe is a class that gathers all the public user information that comes bundled with a single HTTP request.
 
 To start using the class, just clone it from the includes folder and add it to your PHP file.
-`require 'class.publicme.php';`
+```
+require 'class.publicme.php';
+```
 
 And then initialize it
-`$user = new PublicMe();`
+```
+$user = new PublicMe();
+```
 
 After that, you simply echo everything you need like this:
-`echo "User's Operating System: $user->os";`
+```
+echo "User's Operating System: $user->os";
+```
 
 Available properties of the class
 ---
 
 IP
-`echo $ip;`
+```
+public $ip
+```
 
 Operating system
-`echo $os;`
+```
+public $os
+```
 
 City
-`echo $city;`
+```
+public $city
+```
 
 If it's using a proxy or not
-`echo $proxy;`
+```
+public $proxy
+```
 
 Location coordinates
-`echo $latlng;`
+```
+public $latlng
+```
 
 Region
-`echo $region;`
+```
+public $region
+```
 
 Cookies
-`echo $cookies;`
+```
+public $cookies
+```
 
 Browser Name
-`echo $browser;`
+```
+public $browser
+```
 
 Page referer
-`echo $referer;`
+```
+public $referer
+```
 
 Country
-`echo $country;`
+```
+public $country
+```
 
 Internet Service Provider
-`echo $provider;`
+```
+public $provider
+```
 
 Timezone
-`echo $timezone;`
+```
+public $timezone
+```
 
 User agent
-`echo $user_agent;`
+```
+public $user_agent
+```
 
 Country code
-`echo $countryCode;`
+```
+public $countryCode
+```
 
 Remote port from the $_SERVER['REMOTE_PORT'] variable
-`echo $remote_port;`
+```
+public $remote_port
+```
 
 Request URI from the $_SERVER['REQUEST_URI'] variable
-`echo $request_uri;`
+```
+public $request_uri
+```
 
 Accepted languages from the $_SERVER['HTTP_ACCEPT_LANGUAGE'] variable
-`echo $accept_lang;`
+```
+public $accept_lang
+```
 
 Query string from the $_SERVER['QUERY_STRING'] variable
-`echo $query_string;`
+```
+public $query_string
+```
 
 Page request method from the $_SERVER['REQUEST_METHOD'] variable
-`echo $page_req_type;`
+```
+public $page_req_type
+```
 
 Page request time from the $_SERVER['REQUEST_TIME'] variable
-`echo $page_req_time;`
+```
+public $page_req_time;
+```
