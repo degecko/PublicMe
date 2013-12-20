@@ -91,32 +91,32 @@ Country code
 public $countryCode
 ```
 
-Remote port from the $_SERVER['REMOTE_PORT'] variable
+Remote port from the `$_SERVER['REMOTE_PORT']` variable
 ```
 public $remote_port
 ```
 
-Request URI from the $_SERVER['REQUEST_URI'] variable
+Request URI from the `$_SERVER['REQUEST_URI']` variable
 ```
 public $request_uri
 ```
 
-Accepted languages from the $_SERVER['HTTP_ACCEPT_LANGUAGE'] variable
+Accepted languages from the `$_SERVER['HTTP_ACCEPT_LANGUAGE']` variable
 ```
 public $accept_lang
 ```
 
-Query string from the $_SERVER['QUERY_STRING'] variable
+Query string from the `$_SERVER['QUERY_STRING']` variable
 ```
 public $query_string
 ```
 
-Page request method from the $_SERVER['REQUEST_METHOD'] variable
+Page request method from the `$_SERVER['REQUEST_METHOD']` variable
 ```
 public $page_req_type
 ```
 
-Page request time from the $_SERVER['REQUEST_TIME'] variable
+Page request time from the `$_SERVER['REQUEST_TIME']` variable
 ```
 public $page_req_time;
 ```
