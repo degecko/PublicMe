@@ -2,7 +2,7 @@
 
 require_once 'includes/class.publicme.php';
 
-$data = new UserInfo();
+$data = new PublicMe();
 
 ?><!DOCTYPE html>
 <html>
