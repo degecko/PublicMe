@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic,700italic);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.block {
+    padding: 30px;
+}
+
+#header, #footer {
+    background: #9B273E;
+    color: #fff;
+}
+
+.table-inception {
+    padding: 0 !important;
+}
+
+.table-inception table {
+    margin: 0;
+}
+
+.table-inception td {
+    border-top: none !important;
+}
+
+.table-inception .faded {
+    color: #777;
+    font-size: 14px;
+}
+
+em {
+    color: #777;
+}
+
+td.separator {
+    background: #eee;
+}
+
+td.active {
+    font-size: 14px;
+    color: #555;
+}
+
+#footer a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
