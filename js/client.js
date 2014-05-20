@@ -1,5 +1,5 @@
 /*!
- * PublicMe client side data gathering
+ * PublicMe client side script
  *
  * @author   Gecko - g3x0.com
  * @version  1.0
